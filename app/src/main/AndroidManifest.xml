@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Trabalho_Mobile"
+        tools:targetApi="31">
+        <activity
+            android:name=".OrganizacaoAC"
+            android:exported="false" />
+        <activity
+            android:name=".Estruturadedadosum"
+            android:exported="false" />
+        <activity
+            android:name=".Filosofiaciencia"
+            android:exported="false" />
+        <activity
+            android:name=".Economia"
+            android:exported="false" />
+        <activity
+            android:name=".Calculo"
+            android:exported="false" />
+        <activity
+            android:name=".Organizacaoarquitetura"
+            android:exported="false" />
+        <activity
+            android:name=".Programacaodois"
+            android:exported="false" />
+        <activity
+            android:name=".TeoriaGeral"
+            android:exported="false" />
+        <activity
+            android:name=".Metodologia"
+            android:exported="false" />
+        <activity
+            android:name=".Estatistica"
+            android:exported="false" />
+        <activity
+            android:name=".Logicaaplicada"
+            android:exported="false" />
+        <activity
+            android:name=".Matematicadiscreta"
+            android:exported="false" />
+        <activity
+            android:name=".Estagiofichadehoras"
+            android:exported="false" />
+        <activity
+            android:name=".Estagiorelatorio"
+            android:exported="false" />
+        <activity
+            android:name=".Estagiotermo"
+            android:exported="false" />
+        <activity
+            android:name=".Estagioplanoatividade"
+            android:exported="false" />
+        <activity
+            android:name=".Regimentoestagio"
+            android:exported="false" />
+        <activity
+            android:name=".Estagiosupervisionado"
+            android:exported="false" />
+        <activity
+            android:name=".Tcc"
+            android:exported="false" />
+        <activity
+            android:name=".Extensao"
+            android:exported="false" />
+        <activity
+            android:name=".Acccalculadora"
+            android:exported="false" />
+        <activity
+            android:name=".Acctabela"
+            android:exported="false" />
+        <activity
+            android:name=".Regimentoacc"
+            android:exported="false" />
+        <activity
+            android:name=".Acc"
+            android:exported="false" />
+        <activity
+            android:name=".Programacao"
+            android:exported="false" />
+        <activity
+            android:name=".Modulo_um"
+            android:exported="false" />
+        <activity
+            android:name=".Ementa"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
