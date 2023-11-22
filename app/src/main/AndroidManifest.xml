@@ -13,6 +13,50 @@
         android:theme="@style/Theme.Trabalho_Mobile"
         tools:targetApi="31">
         <activity
+            android:name=".AEU"
+            android:exported="false" />
+        <activity
+            android:name=".tcc2"
+            android:exported="false" />
+        <activity
+            android:name=".Seguranca_Auditoria"
+            android:exported="false" />
+        <activity
+            android:name=".Prog_Mobile"
+            android:exported="false" />
+        <activity
+            android:name=".tcc1"
+            android:exported="false" />
+        <activity
+            android:name=".Sistemas_Informacao_Gerenciais"
+            android:exported="false" />
+        <activity
+            android:name=".Sistemas_Distribuidos"
+            android:exported="false" />
+        <activity
+            android:name=".Inteligencia_Artificial"
+            android:exported="false" />
+        <activity
+            android:name=".Empreendedorismo"
+            android:exported="false"
+            android:label="@string/title_activity_empreendedorismo"
+            android:theme="@style/Theme.Trabalho_Mobile" />
+        <activity
+            android:name=".Org_Sistemas"
+            android:exported="false" />
+        <activity
+            android:name=".Seg_Redes_Computadores"
+            android:exported="false" />
+        <activity
+            android:name=".Direito_Legisla"
+            android:exported="false" />
+        <activity
+            android:name=".Gerencia_Redes"
+            android:exported="false" />
+        <activity
+            android:name=".Dev_web_2"
+            android:exported="false" />
+        <activity
             android:name=".OrganizacaoAC"
             android:exported="false" />
         <activity

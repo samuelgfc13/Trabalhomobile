@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Empreendedorismo">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        android:background="#31AFB4"
+        app:title="Empreendedorismo em Informática"/>
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="661dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="6dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="100px"
+            android:text="CARGA HORÁRIA:"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="34h"
+            android:layout_marginTop="100px"
+            android:layout_marginLeft="30px"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="350px"
+            android:text="TÉORICA:"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="350px"
+            android:text="Semanal: 2 "
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="350px"
+            android:text="Semestral: 34"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="450px"
+            android:text="PRÁTICA:"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="450px"
+            android:text="Semanal: 0"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="450px"
+            android:text="Semestral: 0"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="550px"
+            android:text="Ementa:"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:text="Conceito de Empreendedorismo, Perfil do Empreendedor, Desafios, Atitudes e Habilidades, A Empresa, Formas de
+empresas, Os Impostos, Tipos de Impostos, Micro e Pequena Empresa, Programa Simples de Impostos, Ciclo de Vida
+de um Produto, Valor Agregado, Propriedade Industrial, Conceito de Negócio e Negócios em Informática, Estratégias
+Competitivas, Conceito de Oferta e Demanda, Mercados, Setores Empresariais, Marketing, Finanças e Custos, Plano
+de Negócios.
+
+"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:text="Objetivo:"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15px"/>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="371dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:text="Desenvolver conhecimentos, habilidades e comportamentos de empreendedor como forma de fornecer alternativas para
+atuação e realização profissional tanto no setor de informática como em outros setores.
+"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

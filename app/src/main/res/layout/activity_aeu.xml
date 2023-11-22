@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AEU">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        android:background="#31AFB4"
+        app:title="Atividades de Extensão Universitária"/>
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="661dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="6dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="100px"
+            android:text="CARGA HORÁRIA:"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="350h"
+            android:layout_marginTop="100px"
+            android:layout_marginLeft="30px"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="350px"
+            android:text="TÉORICA:"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="350px"
+            android:text="Semanal: 0 "
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="350px"
+            android:text="Semestral: 0"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="450px"
+            android:text="PRÁTICA:"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="450px"
+            android:text="Semanal: 20"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="450px"
+            android:text="Semestral: 350"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="550px"
+            android:text="Ementa:"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:text="O aluno deverá durante os respectivos módulos (I a VIII) obter 350 horas em Atividades de Extensão Universitária.
+As normas destas atividades são determinadas por resolução específica da Faculdade do curso. As Atividades de
+Extensão Universitária são componentes curriculares que possibilitam o reconhecimento, por avaliação, de
+habilidades, conhecimentos e competências do aluno, inclusive adquiridas fora do ambiente escolar, incluindo a
+prática de estudos e atividades independentes, transversais, opcionais, de interdisciplinaridade, especialmente nas
+relações com o mundo do trabalho e com as ações de extensão junto à comunidade.
+
+"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:text="Objetivo:"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15px"/>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="371dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:text="Complementar a formação profissional, cultural e cívica do aluno pela realização de atividades extra-curriculares
+obrigatórias. Contribuir para que a formação do futuro egresso seja generalista, humanista, crítica e reflexiva.
+Despertar o interesse dos alunos para temas sociais, ambientais e culturais. Estimular a capacidade analítica do
+aluno na argumentação de questões e problemas. Auxiliar o aluno na identificação e resolução de problemas, com
+uma visão ética e humanista. Incentivar o aluno a participar de projetos e ações sociais.
+"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
