@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SociedadeEInformatica">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        android:background="#31AFB4"
+        app:title="Sociedade e Informática"/>
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="661dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="6dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="100px"
+            android:text="CARGA HORÁRIA:"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="34h"
+            android:layout_marginTop="100px"
+            android:layout_marginLeft="30px"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="350px"
+            android:text="TÉORICA:"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="350px"
+            android:text="Semanal: 2 "
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="350px"
+            android:text="Semestral: 34"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="450px"
+            android:text="PRÁTICA:"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="450px"
+            android:text="Semanal: 0"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="450px"
+            android:text="Semestral: 0"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="550px"
+            android:text="Ementa:"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:text="História da Sociologia. Revolução Industrial e a formação da sociedade capitalista. Objeto de estudo da Sociologia na
+Realidade. Elementos essenciais do estudo da Sociologia: cultura, sociedade de massa, sociedade de consumo, coerção
+social e controle social. Estratificação social. A vida econômica e a sociedade. As Instituições sociais e os mecanismos
+de controle social, sistemas de poder. Sociedade do trabalho e as novas perspectivas de qualificação do homem.
+"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:text="Objetivo:"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15px"/>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="371dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:text="Conhecer os processos sociais básicos que constituem a relação indivíduo/sociedade; entender a estrutura de classes
+que constitui a sociedade capitalista; apresentar a relação entre Doença e Sociedade, por meio dos conceitos de
+consciência e ideologia como práticas sociais."
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
