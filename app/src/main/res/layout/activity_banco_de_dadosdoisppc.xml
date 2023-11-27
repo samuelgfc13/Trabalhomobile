@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Seguranca_Auditoria">
+    tools:context=".BancoDeDadosdoisppc">
 
 
     <androidx.appcompat.widget.Toolbar
@@ -14,7 +14,7 @@
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         android:background="#31AFB4"
-        app:title="Segurança e Auditoria de Sistemas de Informação"/>
+        app:title="Banco de Dados II"/>
 
     <LinearLayout
         android:layout_width="409dp"
@@ -141,12 +141,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
-            android:text="Conceitos de auditoria. Auditoria de sistemas e a área de sistemas de informação. Controles em SI gerenciais e de
-aplicações. Coleta de dados: testes, técnicas, entrevistas e questionários. Avaliação de integridade e segurança de
-dados, de efetividade e de eficiência. Softwares de auditoria. Gerência da função de auditoria e segurança em SI.
-Segurança em sistemas na Internet. Risco.
-
-
+            android:text="Arquiteturas de Sistemas de Banco de Dados. Conceitos de: transação, concorrência, recuperação, segurança,
+integridade e distribuição. Bancos de Dados Orientados a Objetos. Aplicações não-convencionais: Data
+Warehouse, Geográfico, XML e outros.
 "
             android:textColor="@color/black"
             android:textSize="14sp" />
@@ -166,11 +163,14 @@ Segurança em sistemas na Internet. Risco.
             android:layout_width="371dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
-            android:text="Fornecer fundamentação sobre os princípios básicos da auditoria e segurança de sistemas.
-"
+            android:text="Capacitar o aluno a implementar soluções utilizando bancos de dados relacionais; proporcionar ao aluno
+familiaridade com as diversas tecnologias existentes para banco de dados, de forma a capacitá-lo a selecionar
+uma alternativa adequada à situação."
             android:textColor="@color/black" />
 
     </LinearLayout>
+
+
 
 
 </RelativeLayout>

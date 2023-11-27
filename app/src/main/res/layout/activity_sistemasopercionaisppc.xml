@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Seguranca_Auditoria">
-
+    tools:context=".Sistemasopercionaisppc">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -14,7 +13,7 @@
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         android:background="#31AFB4"
-        app:title="Segurança e Auditoria de Sistemas de Informação"/>
+        app:title="Sistemas Operacionais"/>
 
     <LinearLayout
         android:layout_width="409dp"
@@ -40,7 +39,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:text="68h"
+            android:text="85h"
             android:layout_marginTop="100px"
             android:layout_marginLeft="30px"/>
 
@@ -67,7 +66,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
             android:layout_marginTop="350px"
-            android:text="Semanal: 2 "
+            android:text="Semanal: 5 "
             android:textColor="@color/black"
             android:textSize="17sp"
             android:textStyle="bold" />
@@ -77,7 +76,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
             android:layout_marginTop="350px"
-            android:text="Semestral: 34"
+            android:text="Semestral: 85"
             android:textColor="@color/black"
             android:textSize="17sp"
             android:textStyle="bold" />
@@ -103,7 +102,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
             android:layout_marginTop="450px"
-            android:text="Semanal: 2"
+            android:text="Semanal: 0"
             android:textColor="@color/black"
             android:textSize="17sp"
             android:textStyle="bold" />
@@ -113,7 +112,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
             android:layout_marginTop="450px"
-            android:text="Semestral: 34"
+            android:text="Semestral: 0"
             android:textColor="@color/black"
             android:textSize="17sp"
             android:textStyle="bold" />
@@ -141,12 +140,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
-            android:text="Conceitos de auditoria. Auditoria de sistemas e a área de sistemas de informação. Controles em SI gerenciais e de
-aplicações. Coleta de dados: testes, técnicas, entrevistas e questionários. Avaliação de integridade e segurança de
-dados, de efetividade e de eficiência. Softwares de auditoria. Gerência da função de auditoria e segurança em SI.
-Segurança em sistemas na Internet. Risco.
-
-
+            android:text="O histórico, Funções e características de um SO. Tipos de Sistemas Operacionais. Monoprocessamento e
+Multiprocessamento. . Concorrência. Estrutura do Sistema Operacional. O núcleo do sistema A estrutura de
+sistemas operacionais. Gerenciamento de memória. Memória virtual. Conceito de processo e threads. Gerência de
+processador: escalonamento de processos, Concorrência e sincronização de processos. Alocação de recursos e
+deadlocks. Gerenciamento de arquivos. Gerenciamento de dispositivos de entrada/saída. Métodos de acesso a
+dispositivos.
 "
             android:textColor="@color/black"
             android:textSize="14sp" />
@@ -166,8 +165,10 @@ Segurança em sistemas na Internet. Risco.
             android:layout_width="371dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
-            android:text="Fornecer fundamentação sobre os princípios básicos da auditoria e segurança de sistemas.
-"
+            android:text="Compreender os conceitos e princípios básicos dos sistemas operacionais. Capacitar o aluno a comparar os
+diferentes sistemas operacionais existentes no mercado com base nas técnicas utilizadas para construção de cada
+um deles e como usar o componentes periféricos. Habilitar o aluno a compreender os conceitos de programas
+concorrentes e como os sistemas operacionais os executam."
             android:textColor="@color/black" />
 
     </LinearLayout>

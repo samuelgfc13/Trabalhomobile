@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Seguranca_Auditoria">
+    tools:context=".PsicologiaAplicadaAInformaticappc">
 
 
     <androidx.appcompat.widget.Toolbar
@@ -14,7 +14,7 @@
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         android:background="#31AFB4"
-        app:title="Segurança e Auditoria de Sistemas de Informação"/>
+        app:title="Psicologia Aplicada à Informática"/>
 
     <LinearLayout
         android:layout_width="409dp"
@@ -40,7 +40,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:text="68h"
+            android:text="34h"
             android:layout_marginTop="100px"
             android:layout_marginLeft="30px"/>
 
@@ -103,7 +103,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
             android:layout_marginTop="450px"
-            android:text="Semanal: 2"
+            android:text="Semanal: 0"
             android:textColor="@color/black"
             android:textSize="17sp"
             android:textStyle="bold" />
@@ -113,7 +113,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
             android:layout_marginTop="450px"
-            android:text="Semestral: 34"
+            android:text="Semestral: 0"
             android:textColor="@color/black"
             android:textSize="17sp"
             android:textStyle="bold" />
@@ -141,12 +141,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
-            android:text="Conceitos de auditoria. Auditoria de sistemas e a área de sistemas de informação. Controles em SI gerenciais e de
-aplicações. Coleta de dados: testes, técnicas, entrevistas e questionários. Avaliação de integridade e segurança de
-dados, de efetividade e de eficiência. Softwares de auditoria. Gerência da função de auditoria e segurança em SI.
-Segurança em sistemas na Internet. Risco.
-
-
+            android:text="Psicologia das relações Humanas: Histórico, conceituação. A personalidade e seus componentes: estruturação
+e problemas. O Indivíduo e o grupo. Conflito e tensão interpessoal: conflitos intra e intergrupos, chefia e
+liderança. Stress e pressão no trabalho: situações conflitivas na sociedade moderna, efeitos do stress sobre o
+moral e a produtividade. Relações Humanas e manejo de tensões: feedback nas relações interpessoais e perfil
+e estilos de atuação. Novos paradigmas de organização do trabalho e da produção: o processo de
+desqualificação/requalificação do trabalhador e qualidade de vida no trabalho. Psicologia e informática:
+questões atuais.
 "
             android:textColor="@color/black"
             android:textSize="14sp" />
@@ -166,11 +167,16 @@ Segurança em sistemas na Internet. Risco.
             android:layout_width="371dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
-            android:text="Fornecer fundamentação sobre os princípios básicos da auditoria e segurança de sistemas.
-"
+            android:text="Propiciar uma visão íntegra do binômio homem-máquina, dando-lhe condições de diagnosticar os problemas
+relacionados entre o homem e seus grupos e de administrar as dificuldades daí oriundas. Contribuir para a
+formação de profissional da área de informática, propiciando elementos que estimulem a reflexão crítica sobre
+as consequências econômicas, políticas e culturais das aplicações das tecnologias da informação sobre o
+conjunto da vida social."
             android:textColor="@color/black" />
 
     </LinearLayout>
+
+
 
 
 </RelativeLayout>

@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Seguranca_Auditoria">
-
+    tools:context=".Mineracaodedados">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -14,7 +13,7 @@
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         android:background="#31AFB4"
-        app:title="Segurança e Auditoria de Sistemas de Informação"/>
+        app:title="Mineração de dados"/>
 
     <LinearLayout
         android:layout_width="409dp"
@@ -67,7 +66,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
             android:layout_marginTop="350px"
-            android:text="Semanal: 2 "
+            android:text="Semanal: 4 "
             android:textColor="@color/black"
             android:textSize="17sp"
             android:textStyle="bold" />
@@ -77,7 +76,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
             android:layout_marginTop="350px"
-            android:text="Semestral: 34"
+            android:text="Semestral: 68"
             android:textColor="@color/black"
             android:textSize="17sp"
             android:textStyle="bold" />
@@ -103,7 +102,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
             android:layout_marginTop="450px"
-            android:text="Semanal: 2"
+            android:text="Semanal: 0"
             android:textColor="@color/black"
             android:textSize="17sp"
             android:textStyle="bold" />
@@ -113,12 +112,13 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
             android:layout_marginTop="450px"
-            android:text="Semestral: 34"
+            android:text="Semestral: 0"
             android:textColor="@color/black"
             android:textSize="17sp"
             android:textStyle="bold" />
 
     </LinearLayout>
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -141,13 +141,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
-            android:text="Conceitos de auditoria. Auditoria de sistemas e a área de sistemas de informação. Controles em SI gerenciais e de
-aplicações. Coleta de dados: testes, técnicas, entrevistas e questionários. Avaliação de integridade e segurança de
-dados, de efetividade e de eficiência. Softwares de auditoria. Gerência da função de auditoria e segurança em SI.
-Segurança em sistemas na Internet. Risco.
-
-
-"
+            android:text="Processo de descoberta de conhecimento em base de dados. Pré-processamento de dados. Conceitos básicos de
+mineração de dados. Principais tarefas de mineração de dados (classificação, agrupamento, associação e predição).
+Princípios básicos e aplicações dos principais algoritmos de mineração de dados: árvores e regras de decisão,
+regras de associações, redes neurais, redes bayesianas, clusterização, etc.. Análise e interpretação dos resultados."
             android:textColor="@color/black"
             android:textSize="14sp" />
         <TextView
@@ -166,8 +163,8 @@ Segurança em sistemas na Internet. Risco.
             android:layout_width="371dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
-            android:text="Fornecer fundamentação sobre os princípios básicos da auditoria e segurança de sistemas.
-"
+            android:text="Proporcionar conhecimento acerca das etapas do processo de descoberta de conhecimento em base de dados,
+explorando algoritmos de pré-processamento, seleção de características e de tarefas de mineração de dados."
             android:textColor="@color/black" />
 
     </LinearLayout>

@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Seguranca_Auditoria">
-
+    tools:context=".Simulacaoavaliacaodedesempenho">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -14,7 +13,7 @@
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         android:background="#31AFB4"
-        app:title="Segurança e Auditoria de Sistemas de Informação"/>
+        app:title="Simulação e Avaliação de Desempenho"/>
 
     <LinearLayout
         android:layout_width="409dp"
@@ -67,7 +66,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
             android:layout_marginTop="350px"
-            android:text="Semanal: 2 "
+            android:text="Semanal: 3 "
             android:textColor="@color/black"
             android:textSize="17sp"
             android:textStyle="bold" />
@@ -77,7 +76,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
             android:layout_marginTop="350px"
-            android:text="Semestral: 34"
+            android:text="Semestral: 51"
             android:textColor="@color/black"
             android:textSize="17sp"
             android:textStyle="bold" />
@@ -103,7 +102,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
             android:layout_marginTop="450px"
-            android:text="Semanal: 2"
+            android:text="Semanal: 1"
             android:textColor="@color/black"
             android:textSize="17sp"
             android:textStyle="bold" />
@@ -113,7 +112,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
             android:layout_marginTop="450px"
-            android:text="Semestral: 34"
+            android:text="Semestral: 17"
             android:textColor="@color/black"
             android:textSize="17sp"
             android:textStyle="bold" />
@@ -141,12 +140,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
-            android:text="Conceitos de auditoria. Auditoria de sistemas e a área de sistemas de informação. Controles em SI gerenciais e de
-aplicações. Coleta de dados: testes, técnicas, entrevistas e questionários. Avaliação de integridade e segurança de
-dados, de efetividade e de eficiência. Softwares de auditoria. Gerência da função de auditoria e segurança em SI.
-Segurança em sistemas na Internet. Risco.
-
-
+            android:text="Taxonomia das técnicas de avaliação de desempenho: aferição e modelagem. Técnicas de modelagem. Soluções
+analíticas/numéricas: visão geral dos processos estocásticos; processos markovianos (cadeias de Markov a tempo
+discreto e a tempo contínuo), Processo de Poisson; teoria de filas: Single Station (M/M/1, M/M/m e M/M/m/B) e
+Redes de Filas. Solução por simulação: natureza discreta e contínua; orientações a atividades, a eventos e a
+processos; etapas de uma simulação; linguagens e ferramentas para simulação; simulação distribuída (protocolos
+otimistas e conservativos).
 "
             android:textColor="@color/black"
             android:textSize="14sp" />
@@ -166,11 +165,17 @@ Segurança em sistemas na Internet. Risco.
             android:layout_width="371dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
-            android:text="Fornecer fundamentação sobre os princípios básicos da auditoria e segurança de sistemas.
+            android:text="A disciplina tem como objetivo demonstrar de forma teórica e prática as diversas formas e técnicas estatísticas
+utilizadas em modelagem e avaliação de desempenho de sistemas. Utilizando métodos quantitativos, modelagem
+analítica, através de metodologias simples, modelos analíticos e simulação. O objetivo final da disciplina é dar aos
+alunos uma visão técnicas e métodos mais utilizados metodologias de planejamento de capacidade, para diferentes
+tipos de recursos, incluindo na metodologia: coleta de dados, analise de dados, técnicas de modelagem analítica,
+processo de acompanhamento, simulação discreta, benchmarking
 "
             android:textColor="@color/black" />
 
     </LinearLayout>
+
 
 
 </RelativeLayout>

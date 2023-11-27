@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Seguranca_Auditoria">
+    tools:context=".QualidadedeSoftware">
 
 
     <androidx.appcompat.widget.Toolbar
@@ -14,7 +14,7 @@
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         android:background="#31AFB4"
-        app:title="Segurança e Auditoria de Sistemas de Informação"/>
+        app:title="Qualidade de Software"/>
 
     <LinearLayout
         android:layout_width="409dp"
@@ -67,7 +67,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
             android:layout_marginTop="350px"
-            android:text="Semanal: 2 "
+            android:text="Semanal: 4 "
             android:textColor="@color/black"
             android:textSize="17sp"
             android:textStyle="bold" />
@@ -77,7 +77,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
             android:layout_marginTop="350px"
-            android:text="Semestral: 34"
+            android:text="Semestral: 68"
             android:textColor="@color/black"
             android:textSize="17sp"
             android:textStyle="bold" />
@@ -103,7 +103,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
             android:layout_marginTop="450px"
-            android:text="Semanal: 2"
+            android:text="Semanal: 0"
             android:textColor="@color/black"
             android:textSize="17sp"
             android:textStyle="bold" />
@@ -113,7 +113,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
             android:layout_marginTop="450px"
-            android:text="Semestral: 34"
+            android:text="Semestral: 0"
             android:textColor="@color/black"
             android:textSize="17sp"
             android:textStyle="bold" />
@@ -141,13 +141,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
-            android:text="Conceitos de auditoria. Auditoria de sistemas e a área de sistemas de informação. Controles em SI gerenciais e de
-aplicações. Coleta de dados: testes, técnicas, entrevistas e questionários. Avaliação de integridade e segurança de
-dados, de efetividade e de eficiência. Softwares de auditoria. Gerência da função de auditoria e segurança em SI.
-Segurança em sistemas na Internet. Risco.
-
-
-"
+            android:text="Conceitos de Qualidade de Software; Modelos de Qualidade de Software; Processo de Garantia e Controle da
+Qualidade no desenvolvimento de software; Fatores de qualidade na programação do software; Processos de
+Verificação e Validação; Métricas de qualidade de Software."
             android:textColor="@color/black"
             android:textSize="14sp" />
         <TextView
@@ -166,7 +162,8 @@ Segurança em sistemas na Internet. Risco.
             android:layout_width="371dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
-            android:text="Fornecer fundamentação sobre os princípios básicos da auditoria e segurança de sistemas.
+            android:text="Proporcionar o aprendizado dos aspectos gerais de qualidade de software, tais como modelos de maturidade e os
+processos de controle e garantia da qualidade
 "
             android:textColor="@color/black" />
 

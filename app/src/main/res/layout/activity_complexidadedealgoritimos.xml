@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Seguranca_Auditoria">
-
+    tools:context=".Complexidadedealgoritimos">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -14,7 +13,7 @@
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         android:background="#31AFB4"
-        app:title="Segurança e Auditoria de Sistemas de Informação"/>
+        app:title="Complexidade de algoritmos"/>
 
     <LinearLayout
         android:layout_width="409dp"
@@ -141,12 +140,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
-            android:text="Conceitos de auditoria. Auditoria de sistemas e a área de sistemas de informação. Controles em SI gerenciais e de
-aplicações. Coleta de dados: testes, técnicas, entrevistas e questionários. Avaliação de integridade e segurança de
-dados, de efetividade e de eficiência. Softwares de auditoria. Gerência da função de auditoria e segurança em SI.
-Segurança em sistemas na Internet. Risco.
-
-
+            android:text="Complexidade de algoritmos e de problemas. Critérios de complexidade e ordens assintóticas. Análise de
+complexidade pessimista. Complexidade média. Projeto e análise de algoritmos. Algoritmos gulosos, de
+programação dinâmica e de divisão e conquista. Complexidade de problemas. Classes P e NP. Problemas NP -
+completos.
 "
             android:textColor="@color/black"
             android:textSize="14sp" />
@@ -166,8 +163,8 @@ Segurança em sistemas na Internet. Risco.
             android:layout_width="371dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
-            android:text="Fornecer fundamentação sobre os princípios básicos da auditoria e segurança de sistemas.
-"
+            android:text="Proporcionar conhecimento acerca da análise e projeto de algoritmos, definindo a complexidade computacional para
+diferentes casos e selecionando a implementação mais eficiente."
             android:textColor="@color/black" />
 
     </LinearLayout>

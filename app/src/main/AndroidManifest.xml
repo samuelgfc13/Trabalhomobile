@@ -13,6 +13,75 @@
         android:theme="@style/Theme.Trabalho_Mobile"
         tools:targetApi="31">
         <activity
+            android:name=".TecnologiaAplicaadasaeducacao"
+            android:exported="false" />
+        <activity
+            android:name=".Mineracaodedados"
+            android:exported="false" />
+        <activity
+            android:name=".QualidadedeSoftware"
+            android:exported="false" />
+        <activity
+            android:name=".Complexidadedealgoritimos"
+            android:exported="false" />
+        <activity
+            android:name=".Simulacaoavaliacaodedesempenho"
+            android:exported="false" />
+        <activity
+            android:name=".SociedadeeInformaticappc"
+            android:exported="false" />
+        <activity
+            android:name=".ComputacaoGraficaErealidadeVirtualppc"
+            android:exported="false" />
+        <activity
+            android:name=".GerenciaeProjetoDeSoftwareppc"
+            android:exported="false" />
+        <activity
+            android:name=".GestaoDainformacaoppc"
+            android:exported="false" />
+        <activity
+            android:name=".RedesDeComputadoresppc"
+            android:exported="false" />
+        <activity
+            android:name=".DesenvolvimentoWebippc"
+            android:exported="false" />
+        <activity
+            android:name=".PsicologiaAplicadaAInformaticappc"
+            android:exported="false" />
+        <activity
+            android:name=".InterfaceHomemComputadorppc"
+            android:exported="false" />
+        <activity
+            android:name=".Sistemasopercionaisppc"
+            android:exported="false" />
+        <activity
+            android:name=".BancoDeDadosdoisppc"
+            android:exported="false" />
+        <activity
+            android:name=".AnaliseEProjetosDeSistemasppc"
+            android:exported="false" />
+        <activity
+            android:name=".Engenhariadesoftwareppc"
+            android:exported="false" />
+        <activity
+            android:name=".Estruturadedadosdoisppc"
+            android:exported="false" />
+        <activity
+            android:name=".estruturadedadosumppc"
+            android:exported="false" />
+        <activity
+            android:name=".BancoDeDadosumppc"
+            android:exported="false" />
+        <activity
+            android:name=".Probabilidadeppc"
+            android:exported="false" />
+        <activity
+            android:name=".Administracaodoisppc"
+            android:exported="false" />
+        <activity
+            android:name=".Administracaoumppc"
+            android:exported="false" />
+        <activity
             android:name=".Estagioppc"
             android:exported="false" />
         <activity
