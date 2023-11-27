@@ -72,7 +72,7 @@ public class Ementa extends AppCompatActivity {
     };
 
     String[] modulo7Name = {
-            "Optativa I", "Sistemas Distribuídos", "Sistemas de Informação Gerenciais", "Trabalho de Conclusão de Curso I ", "Estágio Supervisionado", "Atividades Curriculares Complementares"
+            "Optativa I", "Sistemas Distribuídos", "Sistemas de Informação Gerenciais", "Trabalho de Conclusão de Curso I", "Estágio Supervisionado", "Atividades Curriculares Complementares"
 
     };
 
@@ -178,6 +178,139 @@ public class Ementa extends AppCompatActivity {
                         intent = new Intent( Ementa.this, Filosofiaciencia.class);
                         startActivity(intent);
                         break;
+                    case "Administração I":
+                        intent = new Intent( Ementa.this, AdministracaoUm.class);
+                        startActivity(intent);
+                        break;
+                    case "Probabilidade":
+                        intent = new Intent( Ementa.this, Probabilidade.class);
+                        startActivity(intent);
+                        break;
+                    case "Banco de Dados I":
+                        intent = new Intent( Ementa.this, BancoDeDadosUm.class);
+                        startActivity(intent);
+                        break;
+                    case "Estrutura de Dados II":
+                        intent = new Intent( Ementa.this, EstruturaDeDadosDois.class);
+                        startActivity(intent);
+                        break;
+                    case "Engenharia de Software":
+                        intent = new Intent( Ementa.this, EngenhariaDeSoftware.class);
+                        startActivity(intent);
+                        break;
+                    case "Administração II":
+                        intent = new Intent( Ementa.this, AdministracaoDois.class);
+                        startActivity(intent);
+                        break;
+                    case "Análise e Projetos de Sistemas":
+                        intent = new Intent( Ementa.this, AnaliseEProjetosDeSistemas.class);
+                        startActivity(intent);
+                        break;
+                    case "Banco de Dados II":
+                        intent = new Intent( Ementa.this, BancoDeDadosDois.class);
+                        startActivity(intent);
+                        break;
+                    case "Sistemas Operacionais":
+                        intent = new Intent( Ementa.this, SistemasOperacionais.class);
+                        startActivity(intent);
+                        break;
+                    case "Interface Homem Computador":
+                        intent = new Intent( Ementa.this, InterfaceHomemComputador.class);
+                        startActivity(intent);
+                        break;
+                    case "Psicologia Aplicada à Informática":
+                        intent = new Intent( Ementa.this, PsicologiaAplicadaAInformatica.class);
+                        startActivity(intent);
+                        break;
+                    case "Desenvolvimento de Sisteams para Web I":
+                        intent = new Intent( Ementa.this, DesenvolvimentoWebI.class);
+                        startActivity(intent);
+                        break;
+                    case "Redes de Computadores":
+                        intent = new Intent( Ementa.this, RedesDeComputadores.class);
+                        startActivity(intent);
+                        break;
+                    case "Gestão da Informação":
+                        intent = new Intent( Ementa.this, GestaoDaInformacao.class);
+                        startActivity(intent);
+                        break;
+                    case "Gerência e Projeto de Software":
+                        intent = new Intent( Ementa.this, GerenciaEProjetoDeSoftware.class);
+                        startActivity(intent);
+                        break;
+                    case "Computação Gráfica e Realidade Virtual":
+                        intent = new Intent( Ementa.this, ComputacaoGraficaERealidadeVirtual.class);
+                        startActivity(intent);
+                        break;
+                    case "Sociedade e Informática":
+                        intent = new Intent( Ementa.this, SociedadeEInformatica.class);
+                        startActivity(intent);
+                        break;
+                    case "Desenvolvimento de Sistemas para Web II":
+                        intent = new Intent( Ementa.this, Dev_web_2.class);
+                        startActivity(intent);
+                        break;
+                    case "Gerência de Redes de Computadores":
+                        intent = new Intent( Ementa.this, Gerencia_Redes.class);
+                        startActivity(intent);
+                        break;
+                    case "Direito e Legislação":
+                        intent = new Intent( Ementa.this, Direito_Legisla.class);
+                        startActivity(intent);
+                        break;
+                    case "Segurança em Redes de Computadores":
+                        intent = new Intent( Ementa.this, Seg_Redes_Computadores.class);
+                        startActivity(intent);
+                        break;
+                    case "Organização de Sistemas e Métodos":
+                        intent = new Intent( Ementa.this, Org_Sistemas.class);
+                        startActivity(intent);
+                        break;
+                    case "Empreendedorismo em Informática":
+                        intent = new Intent( Ementa.this, Empreendedorismo.class);
+                        startActivity(intent);
+                        break;
+                    case "Inteligência Artificial":
+                        intent = new Intent( Ementa.this, Inteligencia_Artificial.class);
+                        startActivity(intent);
+                        break;
+                    case "Sistemas Distribuídos":
+                        intent = new Intent( Ementa.this, Sistemas_Distribuidos.class);
+                        startActivity(intent);
+                        break;
+                    case "Sistemas de Informação Gerenciais":
+                        intent = new Intent( Ementa.this, Sistemas_Informacao_Gerenciais.class);
+                        startActivity(intent);
+                        break;
+                    case "Trabalho de Conclusão de Curso I":
+                        intent = new Intent( Ementa.this, tccum.class);
+                        startActivity(intent);
+                        break;
+                    case "Estágio Supervisionado":
+                        intent = new Intent( Ementa.this, Estagioppc.class);
+                        startActivity(intent);
+                        break;
+                    case "Atividades Curriculares Complementares":
+                        intent = new Intent( Ementa.this, Accppc.class);
+                        startActivity(intent);
+                        break;
+                    case "Programação para Dispositivos Móveis":
+                        intent = new Intent( Ementa.this, Prog_Mobile.class);
+                        startActivity(intent);
+                        break;
+                    case "Segurança e Auditoria de Sistemas de informação":
+                        intent = new Intent( Ementa.this, Seguranca_Auditoria.class);
+                        startActivity(intent);
+                        break;
+                    case "Trabalho de Conclusão de Curso  II":
+                        intent = new Intent( Ementa.this, tccdois.class);
+                        startActivity(intent);
+                        break;
+                    case "Atividades de Extensão Universitária":
+                        intent = new Intent( Ementa.this, AEU.class);
+                        startActivity(intent);
+                        break;
+
 
                 }
                 return true;

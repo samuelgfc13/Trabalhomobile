@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".tccum">
+    tools:context=".Estagioppc">
 
 
     <androidx.appcompat.widget.Toolbar
@@ -14,7 +14,7 @@
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         android:background="#31AFB4"
-        app:title="Trabalho de Conclusão de Curso 1"/>
+        app:title="Estágio Supervisionado"/>
 
     <LinearLayout
         android:layout_width="409dp"
@@ -40,7 +40,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:text="34h"
+            android:text="170h"
             android:layout_marginTop="100px"
             android:layout_marginLeft="30px"/>
 
@@ -67,7 +67,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
             android:layout_marginTop="350px"
-            android:text="Semanal: 2 "
+            android:text="Semanal: 0 "
             android:textColor="@color/black"
             android:textSize="17sp"
             android:textStyle="bold" />
@@ -77,7 +77,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
             android:layout_marginTop="350px"
-            android:text="Semestral: 34"
+            android:text="Semestral: 0"
             android:textColor="@color/black"
             android:textSize="17sp"
             android:textStyle="bold" />
@@ -103,7 +103,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
             android:layout_marginTop="450px"
-            android:text="Semanal: 0"
+            android:text="Semanal: 10h"
             android:textColor="@color/black"
             android:textSize="17sp"
             android:textStyle="bold" />
@@ -113,7 +113,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
             android:layout_marginTop="450px"
-            android:text="Semestral: 0"
+            android:text="Semestral: 170h"
             android:textColor="@color/black"
             android:textSize="17sp"
             android:textStyle="bold" />
@@ -141,9 +141,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
-            android:text="Escolha de um tema, de uma justificativa e dos objetivos de uma pesquisa (prática ou teórica). Revisão bibliográfica
-para a fundamentação teórica. Escolha da metodologia. Elaboração orientada de um projeto de pesquisa para o
-Trabalho de Conclusão de Curso (TCC), na área relacionada à ênfase do curso escolhida pelo aluno.
+            android:text="Desenvolvimento de estágio profissional em uma organização, contando com supervisão de um membro da
+organização e um professor orientador.
 
 "
             android:textColor="@color/black"
@@ -164,17 +163,15 @@ Trabalho de Conclusão de Curso (TCC), na área relacionada à ênfase do curso 
             android:layout_width="371dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
-            android:text="Planejar e discutir o projeto de pesquisa para a elaboração do TCC. Escolher o tema, definir os objetivos e realizar a
-pesquisa bibliográfica básica. Desenvolver o projeto de pesquisa. Estabelecer uma relação cooperativa com o
-orientador. Trabalhar em respeito às orientações éticas de pesquisa e às normas de elaboração, citação e referências
-de trabalhos científicos utilizadas no curso.
+            android:text="O Estágio Supervisionado tem por objetivo a complementação do ensino ministrado na Universidade, constituindo-se
+num instrumento de aperfeiçoamento técnico-científico, de treinamento prático, de relacionamento humano e de
+integração. No estágio supervisionado o aluno é colocado diante da realidade profissional, obtendo uma visão ampla
+das estruturas empresariais privadas ou públicas, nas quais se integrará após a formatura. Além disso, cria-se um
+vínculo importante entre Universidade e Empresa, possibilitando a atualização contínua de ambos os lados.
 
 "
             android:textColor="@color/black" />
 
     </LinearLayout>
-
-
-
 
 </RelativeLayout>

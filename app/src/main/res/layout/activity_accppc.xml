@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".tccum">
-
+    tools:context=".Accppc">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -14,7 +13,7 @@
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         android:background="#31AFB4"
-        app:title="Trabalho de Conclusão de Curso 1"/>
+        app:title="Atividades Curriculares Complementares"/>
 
     <LinearLayout
         android:layout_width="409dp"
@@ -40,7 +39,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:text="34h"
+            android:text="102h"
             android:layout_marginTop="100px"
             android:layout_marginLeft="30px"/>
 
@@ -67,7 +66,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
             android:layout_marginTop="350px"
-            android:text="Semanal: 2 "
+            android:text="Semanal: 0 "
             android:textColor="@color/black"
             android:textSize="17sp"
             android:textStyle="bold" />
@@ -77,7 +76,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
             android:layout_marginTop="350px"
-            android:text="Semestral: 34"
+            android:text="Semestral: 0"
             android:textColor="@color/black"
             android:textSize="17sp"
             android:textStyle="bold" />
@@ -103,7 +102,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
             android:layout_marginTop="450px"
-            android:text="Semanal: 0"
+            android:text="Semanal: 6"
             android:textColor="@color/black"
             android:textSize="17sp"
             android:textStyle="bold" />
@@ -113,7 +112,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
             android:layout_marginTop="450px"
-            android:text="Semestral: 0"
+            android:text="Semestral: 102"
             android:textColor="@color/black"
             android:textSize="17sp"
             android:textStyle="bold" />
@@ -141,10 +140,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
-            android:text="Escolha de um tema, de uma justificativa e dos objetivos de uma pesquisa (prática ou teórica). Revisão bibliográfica
-para a fundamentação teórica. Escolha da metodologia. Elaboração orientada de um projeto de pesquisa para o
-Trabalho de Conclusão de Curso (TCC), na área relacionada à ênfase do curso escolhida pelo aluno.
-
+            android:text="O aluno deverá durante os respectivos módulos (I a VII) obter 102 horas em Atividades Curriculares Complementares.
+Para efeito de contabilização dessas horas, às 102 horas serão equivalentes a 61 pontos. As atividades realizadas
+serão pontuadas conforme resolução da Faculdade. As normas destas atividades serão determinadas por resolução
+específica da Faculdade do curso. As Atividades Curriculares Complementares são componentes curriculares que
+possibilitam o reconhecimento, por avaliação, de habilidades, conhecimentos e competências do aluno, inclusive
+adquiridas fora do ambiente escolar, incluindo a prática de estudos e atividades independentes, transversais,
+opcionais, de interdisciplinaridade, especialmente nas relações com o mudo do trabalho e com as ações de extensão
+junto à comunidade. Produções bibliográficas, visitas a centros culturais, visitas técnicas, palestras, simpósios, cursos
+e seminários, leituras, participação em projetos sociais, em competições esportivas e frequência a peças teatrais e
+mostras cinematográficas, fazem parte das Atividades Complementares.
 "
             android:textColor="@color/black"
             android:textSize="14sp" />
@@ -164,17 +169,14 @@ Trabalho de Conclusão de Curso (TCC), na área relacionada à ênfase do curso 
             android:layout_width="371dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30px"
-            android:text="Planejar e discutir o projeto de pesquisa para a elaboração do TCC. Escolher o tema, definir os objetivos e realizar a
-pesquisa bibliográfica básica. Desenvolver o projeto de pesquisa. Estabelecer uma relação cooperativa com o
-orientador. Trabalhar em respeito às orientações éticas de pesquisa e às normas de elaboração, citação e referências
-de trabalhos científicos utilizadas no curso.
-
+            android:text="Complementar a formação profissional, cultural e cívica do aluno pela realização de atividades extra-curriculares
+obrigatórias. Contribuir para que a formação do futuro egresso seja generalista, humanista, crítica e reflexiva.
+Despertar o interesse dos alunos para temas sociais, ambientais e culturais. Estimular a capacidade analítica do
+aluno na argumentação de questões e problemas. Auxiliar o aluno na identificação e resolução de problemas, com
+uma visão ética e humanista. Incentivar o aluno a participar de projetos e ações sociais.
 "
             android:textColor="@color/black" />
 
     </LinearLayout>
-
-
-
 
 </RelativeLayout>
